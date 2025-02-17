@@ -1,0 +1,47 @@
+{
+  "name": "js-node-hashicorp-vault",
+  "version": "1.0.0",
+  "description": "NodeJS Vault Provider",
+  "homepage": "https://github.com/pkg-wizard/js-node-hashicorp-vault",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkg-wizard/js-node-hashicorp-vault.git"
+  },
+  "scripts": {
+    "test": "jest -c ./jest.config.js",
+    "build": "tsc",
+    "clean": "rm -r ./dist"
+  },
+  "bugs": {
+    "url": "https://github.com/pkg-wizard/js-node-hashicorp-vault/issues"
+  },
+  "dependencies": {
+    "js-node-errors": "^1.0.0",
+    "js-node-logger": "^1.0.2",
+    "http-status": "^1.5.0",
+    "node-vault": "^0.10.2"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.8",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.1",
+    "prettier": "^3.5.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "Vault",
+    "node-vault",
+    "logger"
+  ],
+  "author": "pkg-wizard",
+  "license": "MIT"
+  
+}
